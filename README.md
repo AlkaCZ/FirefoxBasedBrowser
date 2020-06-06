@@ -1,4 +1,4 @@
-# FirefoxBasedBrowser
+# FirefoxBasedBrowser 1.3
 Test methods Implemented
 
 Refresh button added
