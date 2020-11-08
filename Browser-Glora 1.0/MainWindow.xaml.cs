@@ -126,7 +126,7 @@ namespace Browser_Glora_1._0
             if (FullSearchBar(text))
             {
 
-                if (text.Contains("https://www."))
+                if (text.Contains("https://www.")) //Not ready
                 {
                     return text;
                     //using (StreamWriter sw = new StreamWriter(stream))
@@ -137,7 +137,7 @@ namespace Browser_Glora_1._0
                     //}
 
                 }
-                else if (text.Contains("www."))
+                else if (text.Contains("www.")) //Not ready
                 {
                     text = "https://" + text;
                     return text;
@@ -149,11 +149,11 @@ namespace Browser_Glora_1._0
                     //}
 
                 }
-                else
+                else //Not ready
                 {
                     text = "https://" + "www." + text;
                     return text;
-                    //using (StreamWriter sw = new StreamWriter(stream))
+                    //using (StreamWriter sw = new StreamWriter(stream)) 
                     //{
                     //    sw.WriteLine(SerchBar.Text);
                     //    sw.Close();
